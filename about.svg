@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
+  <style>
+    text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; dominant-baseline: middle; }
+    
+    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    
+  </style>
+  <rect width="100%" height="100%" fill="#0a0a0b" rx="14" ry="14"/>
+  <g opacity="0.5">
+    <circle cx="24" cy="24" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="24" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="24" r="6" fill="#28c840"/>
+  </g>
+  <text x="400" y="28" fill="#5a5a64" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">~ / about.md</text>
+  <g transform="translate(40 68)"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">cat ~/about.md</text></g>
+  <g transform="translate(40 112)"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">Hi, I&apos;m Indrayani Mude</text></g>
+  <g transform="translate(40 134)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">I’m a Computer Engineering student passionate about AI/ML, Data Science, and</text></g>
+  <g transform="translate(40 156)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">software development, building practical solutions to real-world problems.</text></g>
+  <g transform="translate(40 178)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">Currently focused on AI/ML and Data Science, while growing through projects,</text></g>
+  <g transform="translate(40 200)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">leadership, and collaboration.</text></g>
+  <g transform="translate(40 244)"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">tags</text></g>
+  <g transform="translate(40 266)"><text fill="#5a5a64">[ Computer Engineering Student ]  [ Nagpur, Maharashtra ]</text></g>
+  <g transform="translate(40 310)"><text fill="#4ade80">$</text><rect x="20" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: blink 1s steps(1) infinite" /></g>
+</svg>
